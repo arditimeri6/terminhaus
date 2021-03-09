@@ -1,0 +1,666 @@
+body {
+    background-color: #ffffff;
+}
+#map {
+    height: 100%;
+}
+.mapview {
+    height: 200px;
+    width:100%;
+}
+.costum-navbar {
+    background: #C8151B;
+}
+.header-logo {
+    width:180px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color:#fff;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#fff;
+}
+.navbar-nav .show>.nav-link {
+    color:#fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    color:#fff;
+}
+#navbarDropdown {
+    color:#fff;
+}
+.dataTables_info {
+    position: absolute;
+    right: 0;
+
+}
+#usersTable_length {
+    float: right !important;
+    margin-top:50px;
+
+}
+#usersTable_paginate {
+    float:left !important;
+}
+.dataTables_paginate {
+    margin-top:20px !important;
+}
+#appointmentTable_length {
+    float: right !important;
+    margin-top:50px;
+
+}
+#appointmentTable_paginate {
+    float:left !important;
+}
+#kundenTable_length {
+    float: right !important;
+    margin-top:50px;
+
+}
+#kundenTable_paginate {
+    float:left !important;
+}
+#partnersTable_length {
+    float: right !important;
+    margin-top:50px;
+
+}
+#partnersTable_paginate {
+    float:left !important;
+}
+#leadsTable_length {
+    float: right !important;
+    margin-top:50px;
+
+}
+#leadsTable_paginate {
+    float:left !important;
+}
+#partnersTable tbody tr td:last-child{
+    text-align: center !important;
+}
+#partnersTable thead th:last-child{
+    text-align: center !important;
+
+}
+.current {
+    background:transparent !important;
+    border:1px solid #C8151B !important;
+}
+.paginate_button.disabled:hover {
+    color:#fff !important;
+}
+.paginate_button:hover {
+    background: #C8151B !important;
+    color: black !important;
+}
+.label-right {
+    float: right;
+    margin-top:10px;
+}
+.dataTables_wrapper .dataTables_filter input {
+    margin-left: 0 !important;
+    margin-bottom:10px !important;
+    width:300px;
+    padding-left:2em !important;
+    margin-bottom:30px !important;
+}
+.dataTables_filter {
+    position: relative !important;
+}
+.form-control {
+    border-radius:0 !important;
+}
+#search-icon{
+    color:#C8151B;
+    position: absolute;
+    left:10px;
+    top:34px;
+}
+.table td {
+    border-top: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+}
+.table th {
+    border:none;
+    color:#C8151B;
+}
+.table td:nth-child(1) {
+    border-left: 1px solid #dee2e6;
+}
+.table td:last-child {
+    border-right: 1px solid #dee2e6;
+}
+.cloneinput {
+    width: 18rem !important;
+    border: 1px solid #C8151B;
+}
+.cloneselect {
+    border: 1px solid #C8151B;
+}
+.costum-select {
+    border: 1px solid #C8151B;
+    max-width:230px;
+    width: 220px !important;
+}
+@media screen and (max-width:800px){
+    .costum-select {
+        width: 100% !important;
+    }
+}
+.costumbtn {
+    border-radius: 0 !important;
+    color:#222;
+    border:1px solid #C8151B !important;
+}
+.top-inputs {
+    position: absolute;
+    top:23px;
+}
+.top-inputs-user {
+    position: absolute;
+    top:23px;
+    display:grid;
+    grid-template-columns:50% ;
+    grid-gap: 10px;
+}
+@media screen and (max-width:700px){
+    .top {
+        margin-top:71px;
+    }
+}
+
+.topAppointment {
+    margin-top:71px !important;
+}
+@media screen and (max-width:1410px){
+    .topAppointment {
+        margin-top:171px !important;
+    }
+}
+@media screen and (max-width:580px){
+    .topAppointment {
+        margin-top:191px !important;
+    }
+}
+.table {
+    width:100% !important;
+}
+.btn-outline-danger {
+    border-radius: 0;
+    color:#333;
+}
+.btn-danger {
+    border-radius: 0;
+}
+.card {
+    border-radius: 0;
+}
+.toast-top-right {
+    margin-top: 70px;
+}
+.addplus {
+    margin-top:12px !important;
+    color:#C8151B;
+}
+.btn-file {
+    background:#C8151B !important;
+    border-color:#C8151B;
+}
+
+.vertielen-form {
+    padding: 0 19px;
+}
+@media screen and (max-width:700px){
+    .vertielen-form {
+        padding: 0 0;
+        width: 130px;
+    }
+    .vertielen-form:first-child{
+        padding: 0 0;
+        width: 70px;
+    }
+}
+.appointmentbuttons{
+    text-align: center;
+}
+.navbar-toggler {
+    border:1px solid #fff !important;
+    background-color: #fff !important;
+}
+.custom-control-label {
+    float: left;
+}
+.custom-control-label:before {
+    border:1px solid #c7c7c7;
+    border-radius: 0 !important;
+    background: transparent;
+}
+.custom-control-label:after, .custom-control-label:before {
+    width:19px;
+    height:19px;
+    margin-top:3px !important;
+}
+.costumcheckbox1 {
+    font-size: 16px !important;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label:before {
+    background: #e3342f;
+}
+.under-checkbox {
+    margin-left: 7px;
+}
+
+.hidden-field{
+    display: none;
+}
+
+tbody tr:hover .costum-checkbox input[type="checkbox"]:before {
+    background-color:transparent !important;
+}
+.file-preview-audio {
+    height:40px !important;
+
+}
+.krajee-default.file-preview-frame[data-template="audio"] .kv-file-content {
+    width: 215px !important;
+}
+.krajee-default.file-preview-frame[data-template="audio"] {
+    padding-top:111px !important;
+    background-image: url('../images/mp3logo.png') ;
+    background-repeat: no-repeat;
+    background-size:100px 100px;
+    background-position: center 5px;
+    width: 230px !important;
+
+}
+.krajee-default .file-caption-info {
+    margin-top:10px !important;
+}
+.progress {
+    margin-top: 16px;
+}
+.filter-date {
+    position: absolute;
+    top:94px;
+    margin-left: 15px;
+}
+.costum-date {
+    margin-left: 20px;
+    margin-right: 5px;
+}
+.deleteUser{
+    border-radius: .2rem !important;
+    margin-left: -1px;
+}
+.costum-from-inline {
+    flex-flow: row !important;
+}
+.dt-buttons {
+    position: absolute !important;
+    right:185px !important;
+    margin-top:-46px;
+}
+.btnModal {
+    position: absolute;
+    right: 15px;
+    top:25px;
+}
+.btnSingleExport {
+    position: absolute;
+    right: 330px;
+    top:25px;
+    background: #fff !important;
+}
+@media screen and (max-width:1410px){
+    .dt-buttons {
+        margin-top:-20px;
+    }
+    .btnModal {
+        top:150px;
+    }
+    .btnSingleExport {
+        top:150px;
+    }
+}
+@media screen and (max-width:580px){
+    .btnModal {
+        top:170px;
+    }
+    .btnSingleExport {
+        top:170px;
+    }
+}
+.dt-buttons button {
+    padding:7px 10px !important;
+}
+.selected {
+    background-color: #f1f1f1 !important;
+    color:#222;
+}
+.selected td div input[type="checkbox"]:before {
+    color:white !important;
+}
+.costumBtn {
+    background: white !important;
+    border-radius: 0 !important;
+    border:1px solid #e3342f !important;
+    transition: .2s !important;
+}
+.costumBtn:hover {
+    background: #e3342f !important;
+    color:white !important;
+    border-radius: 0 !important;
+    border:1px solid #e3342f !important;
+}
+.languagestyle {
+    width: 100%;
+}
+.formcostumstyle {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+@media screen and (max-width:1060px){
+    .formcostumstyle {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media screen and (max-width:800px){
+    .formcostumstyle {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width:375px){
+    .formcostumstyle {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* year picker  */
+
+:root {
+    --background-color: #fff;
+    --border-color: #ccc;
+    --text-color: #555;
+    --selected-text-color: #C0392B;
+    --hover-background-color: #eee;
+}
+
+.yearpicker-container {
+    position: absolute;
+    color: var(--text-color);
+    width: 280px;
+    border: 1px solid var(--border-color);
+    border-radius: 3px;
+    font-size: 1rem;
+    box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.2);
+    background-color: var(--background-color);
+}
+
+.yearpicker-header {
+    display: flex;
+    width: 100%;
+    height: 2.5rem;
+    border-bottom: 1px solid var(--border-color);
+    align-items: center;
+    justify-content: space-around;
+}
+
+.yearpicker-prev,
+.yearpicker-next {
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.yearpicker-prev:hover,
+.yearpicker-next:hover {
+    color: var(--selected-text-color);
+}
+
+.yearpicker-year {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.yearpicker-items {
+    list-style: none;
+    padding: 1rem 0.5rem;
+    flex: 0 0 33.3%;
+    width: 100%;
+    background:white !important;
+}
+
+.yearpicker-items:hover {
+    background-color: var(--hover-background-color);
+    color: var(--selected-text-color);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.yearpicker-items.selected {
+    color: var(--selected-text-color);
+    font-weight: bold;
+}
+.hide{
+    display: none;
+}
+#filter_by {
+    width: 15.5vh;
+}
+.single-select-control {
+    margin-top:-35px;
+}
+/* Status Style */
+.bestatigt {
+    background-color: transparent !important;
+}
+.abgesagt {
+    background-color: #FADBD8 !important;
+}
+.storno {
+    background-color: #FADBD8 !important;
+}
+.abshluss{
+    background-color: #EAFAF1 !important;
+}
+.offen{
+    background-color: #fbf9e6 !important;
+}
+/* End status style */
+.feedback-bottom {
+    padding:12px;
+}
+
+.feedbackicon {
+    width:20px;
+    cursor: pointer;
+}
+
+@media (min-width: 992px){
+    #historyModal .modal-lg {
+        max-width: 150vh !important;
+    }
+    #historyModalSecond .modal-lg {
+        max-width: 150vh !important;
+    }
+}
+@media screen and (max-width:700px) {
+    .fromlabel, .tolabel {
+        display: none;
+    }
+    .cloneinput {
+        width:100% !important;
+    }
+}
+
+.hide{
+    display: none !important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%231aa3ff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%231aa3ff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+/*  File Upload Style */
+.krajee-default.file-preview-frame .kv-file-content{
+    height: 12vh!important;
+
+}
+
+.file-drop-zone-title{
+    padding: 0 !important;
+}
+/* .file-thumbnail-footer {
+    display: none;
+} */
+.kv-file-content{
+    height: 12vw !important;
+    width: 12vw !important;
+}
+.kv-file-content video{
+    width: 11vw !important;
+    height: 12vh !important;
+}
+/* ////////////////////////////////// */
+
+
+
+
+.leadsingleexport {
+    position: absolute;
+    right: 245px;
+    top:25px;
+    background: #fff !important;
+}
+@media screen and (max-width:1410px){
+    .leadsingleexport {
+        top:150px;
+    }
+}
+@media screen and (max-width:580px){
+    .leadsingleexport {
+        top:170px;
+    }
+}
+
+.exportall-lead {
+    position: absolute;
+    right: 15px;
+    top:25px;
+    background: #fff !important;
+}
+@media screen and (max-width:1410px){
+    .exportall-lead {
+        top:150px;
+    }
+}
+@media screen and (max-width:580px){
+    .exportall-lead {
+        top:170px;
+    }
+}
+
+.exportall {
+    position: absolute;
+    right: 100px;
+    top:25px;
+    background: #fff !important;
+}
+@media screen and (max-width:1410px){
+    .exportall {
+        top:150px;
+    }
+}
+@media screen and (max-width:580px){
+    .exportall {
+        top:170px;
+    }
+}
+@media (min-width: 992px){
+    #showCommentModal .modal-lg {
+        max-width: 115vh !important;
+    }
+}
+#filter_datepicker{
+    width: 21vh;
+}
+.indexUsers-button{
+    min-width: 9vw !important;
+    background-color: #e3342f;
+    color: white !important;
+
+}
+.indexUsers-button:focus, .indexPartner-button:focus, .createPartner-button:focus{
+    box-shadow: none !important;
+
+}
+.indexPartner-button{
+    border-radius: 0 !important;
+    min-width: 9vw !important;
+}
+
+.createUsers-Button{
+    color:#C8151B;
+    margin: 6px 0 0 30px;
+    float:right;
+}
+.addButton{
+    color:#C8151B;
+    margin: 6px 0 0 30px;
+}
+
+.createPartner-button{
+    min-width: 9vw !important;
+    background-color: #e3342f;
+    color: white !important;
+
+}
+
+#clearFilter-Appointments{
+    border-radius: 0 !important;
+}
+#clearFilter-leads {
+    border-radius: 0 !important;
+}
+#editUserButton-Benutzer{
+    border-radius: 0 !important;
+    color:#3490dc;
+    min-width: 8vw !important;
+}
+#editUserButton-Benutzer:hover{
+    color:white;
+}
+.register-buttons{
+    width: 8rem !important;
+}
+
+/*  Start Edit Appointment Comment Card Style */
+.card-style{
+    box-shadow: 0px 0px 12px #888888 !important;
+}
+.date-qcComent{
+    position: relative;
+    left: 1rem;
+    font-size: .9rem;
+}
+
+/*  End   Edit Appointment Comment Card Style */
+.krajee-default .file-footer-caption {
+    margin-bottom: 0px !important;
+}
+.createdBy-paragraph{
+    background-color: rgba(0,0,0,.03);
+    border: 1px solid rgba(0,0,0,.125);
+    box-shadow: 0px 0px 6px #888888 !important;
+
+}
